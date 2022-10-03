@@ -1,0 +1,12 @@
+sampleDict = {
+    "class":{
+        "students":{
+            "name":"Mike",
+            "marks":{
+                "physics":70,
+                "history":80
+            }
+        }
+    }
+}
+print(sampleDict["class"]["students"]["marks"]["history"])
